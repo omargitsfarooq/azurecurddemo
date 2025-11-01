@@ -1,9 +1,3 @@
-<?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-// Your PHP code follows here
-?>
 <?php require "templates/header.php"; ?>
 
 <div class="center-align">
@@ -15,7 +9,7 @@ error_reporting(E_ALL);
 
     //Establish the connection
     $conn = mysqli_init();
-    // mysqli_ssl_set($conn,NULL,NULL,$sslcert,NULL,NULL);
+    mysqli_ssl_set($conn,NULL,NULL,$sslcert,NULL,NULL);
 
 
     if(!mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306, MYSQLI_CLIENT_SSL)){
