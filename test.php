@@ -24,7 +24,7 @@ mysqli_ssl_set(
   $conn,
   NULL,
   NULL,
-  '/DigiCertGlobalRootCA.crt.pem',
+  'DigiCertGlobalRootCA.crt.pem',
   NULL,
   NULL
 );
