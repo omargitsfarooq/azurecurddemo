@@ -1,4 +1,4 @@
-<h1> 0357 </h1>
+<h1> 0411 </h1>
 <?php
 
 /**
@@ -24,7 +24,7 @@ mysqli_ssl_set(
   $conn,
   NULL,
   NULL,
-  'DigiCertGlobalRootCA.crt.pem',
+  'DigiCertGlobalRootG2.crt.pem',
   NULL,
   NULL
 );
