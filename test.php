@@ -1,3 +1,6 @@
+<?php 
+require "database/config.php";
+?>
 <h1> One  </h1>
 <?php
     $servername = "satserver01.mysql.database.azure.com";
