@@ -32,7 +32,7 @@ error_reporting(E_ALL);
         $res = mysqli_query($conn, 'SELECT * FROM Products');
 
         if (mysqli_num_rows($res) <= 0) {
-            echo "<h2>Catalog is empty.</h2>";
+            echo "<h2>Catalog is empty. ONE</h2>";
         }
         else {
             echo "<table> <tr align=\"left\"> <th> Product Name </th> <th> Price (USD) </th> </tr>";
